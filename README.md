@@ -30,13 +30,13 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
 3. Get the docker image
    
    ```bash
-   docker pull rodenhausen/eulerx
+   docker pull rodenhausen/e3-docker-image
    ```
 
 4. Run the image
 
    ```bash
-   docker run -it rodenhausen/eulerx
+   docker run -it rodenhausen/e3-docker-image
    ```
 
 5. For informations on how to use refer to their respective repositories
