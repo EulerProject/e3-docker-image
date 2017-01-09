@@ -42,7 +42,7 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
  * [euler2](https://github.com/EulerProject/EulerX)
  * [euler2-demos](https://github.com/EulerProject/euler2-demos)
  
- 5. Access files of the host system
+5. Access files of the host system
  
    If you want to use files of your host system you can [mount them](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) when running the image
 
