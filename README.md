@@ -25,24 +25,26 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
 
     For more, refer to the [installation instructions for windows at docker.com](https://docs.docker.com/engine/installation/windows/)
 
-2. Get the docker image
+2. Startup docker if not done so automatically
+
+3. Get the docker image
    
    ```bash
    docker pull rodenhausen/eulerx
    ```
 
-3. Run the image
+4. Run the image
 
    ```bash
    docker run -it rodenhausen/eulerx
    ```
 
-4. For informations on how to use refer to their respective repositories
+5. For informations on how to use refer to their respective repositories
  * [e3](https://github.com/EulerProject/e3)
  * [euler2](https://github.com/EulerProject/EulerX)
  * [euler2-demos](https://github.com/EulerProject/euler2-demos)
  
-5. Access files of the host system
+6. Access files of the host system
  
    If you want to use files of your host system you can [mount them](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) when running the image
 
