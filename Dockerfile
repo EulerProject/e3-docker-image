@@ -37,5 +37,7 @@ RUN ln -s /opt/reasoners/claspD-1.1.4/claspD-1.1.4 /usr/local/bin/claspD
 RUN ln -s /opt/reasoners/LADR-2009-11A/bin/mace4 /usr/local/bin/mace4
 RUN ln -s /opt/reasoners/LADR-2009-11A/bin/prover9 /usr/local/bin/prover9
 RUN ln -s /opt/eulerx/src-el/euler2 /usr/local/bin/euler2
+RUN ln -s /opt/eulerx/src-el/y2d /usr/local/bin/y2d
+RUN ln -s /opt/eulerx/src-el/euler /usr/local/bin/euler
 RUN ln -s /opt/e3/e3 /usr/local/bin/e3
 RUN chmod +x /usr/local/bin/dlv
