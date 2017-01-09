@@ -43,7 +43,7 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
    e3 set config imageViewer = cp {file} /e3-data
    ```
 
-4. For informations on how to use refer to their respective repositories
+4. For informations on how to use e3, euler2 or euler2-demos please refer to their respective repositories
  * [e3](https://github.com/EulerProject/e3)
  * [euler2](https://github.com/EulerProject/EulerX)
  * [euler2-demos](https://github.com/EulerProject/euler2-demos)
