@@ -33,9 +33,7 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
    docker run -it rodenhausen/e3-docker-image
    ```
    
-   If you want to use files of your host system you can [mount them](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) when running the image.
-   
-   If your host is a windows system you may for example do something like this.
+   If you want to use files of your host system you can [mount them](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) when running the image. If your host is a windows system you may for example do something like this.
    ```bash
    docker run -v C:\Users\{user}\{e3-data}:/e3-data -it rodenhausen/e3-docker-image
    ```
