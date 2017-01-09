@@ -35,15 +35,18 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
    
    If you want to use files of your host system you can [mount them](https://docs.docker.com/engine/tutorials/dockervolumes/#mount-a-host-directory-as-a-data-volume) when running the image. If your host is a windows system you may for example do something like this.
    ```bash
-   docker run -v C:\Users\{user}\{e3-data}:/e3-data -it rodenhausen/e3-docker-image
+   docker run -v C:\Users\user\e3-data:/e3-data -it rodenhausen/e3-docker-image
+   ```
+   
+   Additionally, to automatically copy produced image files from e3 to your host you may want to configure e3 as follows.
+   ```bash
+   e3 set config imageViewer = cp {file} /e3-data
    ```
 
 4. For informations on how to use refer to their respective repositories
  * [e3](https://github.com/EulerProject/e3)
  * [euler2](https://github.com/EulerProject/EulerX)
  * [euler2-demos](https://github.com/EulerProject/euler2-demos)
- 
-5. Access files of the host system
  
 
 
