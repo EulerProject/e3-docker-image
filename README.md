@@ -40,4 +40,4 @@ Docker image for e3
 4. For informations on how to use refer to their respective repositories
  * e3 @ https://github.com/EulerProject/e3
  * euler2 @ https://github.com/EulerProject/EulerX
- * euler2-demos @ ttps://github.com/EulerProject/euler2-demos
+ * euler2-demos @ https://github.com/EulerProject/euler2-demos
