@@ -1,5 +1,5 @@
 # e3-docker-image
-Docker image for e3 
+Docker image for e3, euler2 and euler2-demos in a Debian OS
 
 # Setup
 
