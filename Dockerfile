@@ -22,6 +22,7 @@ RUN pip install pinject
 RUN pip install autologging
 RUN pip install matplotlib
 RUN pip install networkx
+RUN pip install gitpython
 RUN git clone https://github.com/EulerProject/EulerX /opt/eulerx
 RUN git clone https://github.com/EulerProject/e3 /opt/e3
 RUN git clone https://github.com/EulerProject/e3-kernel /opt/e3-kernel
