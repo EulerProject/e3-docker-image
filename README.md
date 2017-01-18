@@ -43,7 +43,18 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
    e3 set config imageViewer = cp {file} /e3-data
    ```
    * To maintain the e3 state between docker runs you can:
-      * If you still have the docker container running, you can choose to resume it where you left off
+      * If you have not removed the container, you first have to know your the container name or id. You can find it from the following output
+      
+        ```bash
+        docker ps -a
+        ```
+        Then you can restart and attach to it doing
+        
+        ```bash
+        docker start <container-name-or-id>
+        docker attach <container-name-or-id>
+        ```
+      running, you can choose to resume it where you left off
       * Use the docker volume option and bind it to your `.e3` directory. E.g. as follows
       
         ```bash
