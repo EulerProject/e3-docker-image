@@ -42,7 +42,15 @@ Docker image for e3, euler2 and euler2-demos in a Debian OS
    ```bash
    e3 set config imageViewer = cp {file} /e3-data
    ```
-
+   * To maintain the e3 state between docker runs you can:
+      * If you still have the docker container running, you can choose to resume it where you left off
+      * Use the docker volume option and bind it to your `.e3` directory. E.g. as follows
+      
+        ```bash
+        docker run -v C:\Users\user\.e3:/root/.e3 -it rodenhausen/e3-docker-image
+        ```  
+      * Configure a git repository and use the commands `git push` and `git pull` to store the state between docker runs 
+   
 4. For informations on how to use e3, euler2 or euler2-demos please refer to their respective repositories
  * [e3](https://github.com/EulerProject/e3)
  * [euler2](https://github.com/EulerProject/EulerX)
