@@ -24,6 +24,8 @@ RUN pip install matplotlib
 RUN pip install networkx
 RUN pip install gitpython
 RUN pip install beautifulsoup4
+RUN pip intsall html5lib
+RUN pip install ruamel.yaml
 
 RUN git clone https://github.com/EulerProject/EulerX /opt/eulerx
 RUN git clone https://github.com/EulerProject/e3 /opt/e3
